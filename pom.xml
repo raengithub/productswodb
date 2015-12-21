@@ -154,7 +154,7 @@
 					<org>commerce-stage</org>
 					<space>kiwis</space>
 					<appname>productswodb</appname>
-					<url>productswodb.api.us-east.stage.cf.yaas.io</url>
+					<url>productswodb.us-east.stage.cf.yaas.io</url>
 					<memory>512</memory>
 					<instances>2</instances>
 					<server>cf_configuration</server>
