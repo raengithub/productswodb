@@ -157,6 +157,7 @@
 					<url>productswodb.api.us-east.stage.cf.yaas.io</url>
 					<memory>512</memory>
 					<instances>2</instances>
+					<server>cf_configuration</server>
 				</configuration>
 			</plugin>
 			
