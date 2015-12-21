@@ -30,11 +30,13 @@ public class ProductResource {
         productsCollection.put("C002", product2);
         productsCollection.put("C003", product3);
     }
+
     @Path("{code}")
     @GET
     @Produces({MediaType.APPLICATION_JSON})
     public Response getProduct(@PathParam("code") String code){
         System.out.println("code: " + code);
+        prepareProducts();
         if(productsCollection.containsKey(code)){
             return Response.ok(productsCollection.get(code)).build();
         }
