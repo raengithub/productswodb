@@ -17,7 +17,7 @@
         <version.mvn.war.plugin>2.6</version.mvn.war.plugin>
         <version.jersey>2.15</version.jersey>
         <version.servlet.api>3.1.0</version.servlet.api>  <!-- use 3.0.1 for Tomcat 7 or Java EE 6 (i.e. Glassfish 3.x) -->
-		<cfplugin.version>1.4.1</cfplugin.version>
+		<cfplugin.version>1.1.2</cfplugin.version>
 	</properties>
 	
 	<repositories>
